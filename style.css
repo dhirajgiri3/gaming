@@ -1,0 +1,215 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(to bottom left, #02162a 23%, #022720 97%);
+}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-icon {
+
+    width: 27px;
+    cursor: pointer;
+}
+
+nav {
+    
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul li {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li :hover {
+
+    border: 2px solid royalblue;
+    padding: 4px;
+    box-sizing: border-box;
+    color: rgb(142, 188, 251);
+    background-color: rgba(186, 235, 255, 0);
+    box-shadow: 2px 0 10px #1e4cf2, 3px 0 40px #44b4ff, 4px 0 80px #21ecf3;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh 0;
+    padding: 0.6vh;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 5vh;
+    font-family: poppin;
+}
+
+.col-1 h2 {
+    font-size: 50px;
+    color: rgb(194, 231, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1 h3 {
+    
+    font-size: 20px;
+    margin: 4px 0;
+    color: rgb(219, 220, 220);
+
+}
+
+.col-1 h4 {
+    color: beige;
+}
+
+.col-1 p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique 10deg;
+    margin: 20px 0;
+    color: rgb(184, 185, 185);
+
+}
+
+.button {
+
+    padding: 5px 10px;
+    border: #9fd1fb;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin: 12px 0 0 0;
+    cursor: pointer;
+    background: #9be9f7;
+    width: 16.5vh;
+    height: 6vh;
+    
+    
+}
+
+
+.button h3 {
+    font-size: 15px;
+    color: rgb(1, 17, 52);
+    
+    
+}
+
+button:hover {
+    color: #9fd1fb;
+    background: linear-gradient(to bottom, #0004ff -27%, #210098 106%);
+    box-shadow: 2px 0 10px #2196f3, 3px 0 40px #2196f3, 4px 0 80px #2196f3;
+    border-radius: 11px;
+}
+
+.button h3:hover {
+    color: rgb(200, 238, 251);
+
+}
+
+.col-1::after {
+    content: '';
+    width: 10px;
+    height: 67%;
+    background: linear-gradient(to bottom, #6287f5 -27%, #210098 106%);
+    position: absolute;
+    left: -40px;
+    top: 20px;
+
+}
+
+
+.col-2{
+
+    position: relative;
+    display: flex;
+    flex-basis: 57%;
+    align-items: center;
+
+}
+
+.controller {
+    width: 90%;
+    z-index: 1;
+}
+
+.colorbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    background: linear-gradient(to bottom, #aeedfd -27%, #40a0c3 106%);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 80%;
+    transform: translateX(100px);
+    }
+
+
+.colorbox:hover {
+    transform: translateX(60px);
+    background: linear-gradient(to bottom, #56e1e1 27%, #04979c 106%);;
+}
+
+.add-button img {
+    width: 35px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.social img {
+    height: 23px;
+    margin: 23px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #aeedfd00 -27%, #40a0c300 106%);
+    background-size: 500px;
+}
+
+@media only screen and  (max-width:700px) {
+
+    
+}
